@@ -1,0 +1,1 @@
+QA portfolio that represents examples of test documentation such as user stories, use cases, test cases and bug reports.
