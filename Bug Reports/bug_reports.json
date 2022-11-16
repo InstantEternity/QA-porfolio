@@ -1,0 +1,91 @@
+[
+{
+    "Bug_id":1,
+    "Priority":"High",
+    "Browser": "Google Chrome",
+    "OC": "105.0.5195.102",
+    "Summary":"Product price of a '100% Irish Linen Tea Towels' is different on product listing page and on product detail page",
+    "Pre-conditions:":"https://qatest-dev.indvp.com/ is opened",
+    "Steps to reproduce":
+    {
+      "1":"Click on 'All Kitchen & Dining' on the menu",
+      "Screenshot_1": "https://drive.google.com/file/d/1Gav6ky91CP-w1frKDkW2gRB9xCSZfPKd/view?usp=sharing",
+      "2":"Click on product '100% Irish Linen Tea Towels - Set of Two' - £43.00",
+      "Screenshot_2": "https://drive.google.com/file/d/1mYP2uQ3K8ZjvQiDl90R8YAFQUjgQkEuD/view?usp=sharing"
+    },
+    "Actual result":"Product price is different on product listing page and on product detail page",
+    "Expected result":"Product price must have £25.80 on product listing page and on product detail page"
+    
+  },
+
+  {
+    "Bug_id":2,
+    "Priority":"High",
+    "Browser": "Google Chrome",
+    "OC": "105.0.5195.102",
+    "Summary":"Clicking on 'Sale Room' - 404 page not found ",
+    "Pre-conditions:":"https://qatest-dev.indvp.com/ is opened",
+    "Steps to reproduce":
+    {
+      "1":"Click on the button 'Sale Room' on the menu"
+    },
+    "Actual result":"Page can not be reached - 404 page not found",
+    "Expected result":"Page 'Sale Room' is opened"
+    
+  },
+
+  {
+    "Bug_id":3,
+    "Priority":"High",
+    "Browser": "Google Chrome",
+    "OC": "105.0.5195.102",
+    "Summary":"Request for catalog can't be sent",
+    "Pre-conditions:":"https://qatest-dev.indvp.com/ is opened",
+    "Steps to reproduce":
+    {
+      "1":"Click on Catalogue Request on the footer",
+      "2":"Fill the form of Catalogue Request",
+      "3":"Press on Send catalogue request"
+    },
+    "Actual result":"Catalogue Request can't be sent - internal server error",
+    "Screenshot": "https://drive.google.com/file/d/1_-2hqoo_pNXHcW3P9S0hEy0cwuAQ8PYE/view?usp=sharing",
+    "Expected result":"Catalogue Request is sent"
+  },
+
+  {
+    "Bug_id":4,
+    "Priority":"Low",
+    "Browser": "Google Chrome",
+    "OC": "105.0.5195.102",
+    "Summary":"Incorrect display of the number of items in 'Bed & Bath' on the one page",
+    "Pre-conditions:":"https://qatest-dev.indvp.com/ is opened",
+    "Steps to reproduce":
+    {
+      "1":"Click on 'Bed & Bath' on the menu",
+      "2":"Scroll until the end of items"
+    },
+    "Actual result":"On the left of pagination is shown - Items 1 to 13",
+    "Expected result":"On the left of pagination must be shown - Items 1 to 12 "
+  },
+
+  {
+    "Bug_id":5,
+    "Priority":"High",
+    "Browser": "Google Chrome",
+    "OC": "105.0.5195.102",
+    "Summary":"'Create new account' popup is not fully displayed at 100% browser scale",
+    "Pre-conditions":
+    {
+    "1":"https://qatest-dev.indvp.com/ is opened",
+    "2":"User is not signed up"
+    },
+    "Steps to reproduce":
+    {
+      "1":"Click on 'Create an account'",
+      "2":"Click on the bottom of pop-up 'Create an account'"
+    },
+    "Actual result":"'Create new account' popup is not fully displayed at 100% browser scale",
+    "Expected result":"'Create new account' popup is fully displayed at 100% browser scale"
+  }
+]
+
