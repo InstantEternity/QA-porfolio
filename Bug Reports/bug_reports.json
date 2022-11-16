@@ -13,8 +13,8 @@
       "2":"Click on product '100% Irish Linen Tea Towels - Set of Two' - £43.00",
       "Screenshot_2": "https://drive.google.com/file/d/1mYP2uQ3K8ZjvQiDl90R8YAFQUjgQkEuD/view?usp=sharing"
     },
-    "Actual result":"Catalogue Request can't be sent - internal server error",
-    "Expected result":"Catalogue Request is sent"
+    "Actual result":"Product price is different on product listing page and on product detail page",
+    "Expected result":"Product price must have £25.80 on product listing page and on product detail page"
     
   },
 
@@ -54,7 +54,7 @@
 
   {
     "Bug_id":4,
-    "Priority":"High",
+    "Priority":"Low",
     "Browser": "Google Chrome",
     "OC": "105.0.5195.102",
     "Summary":"Incorrect display of the number of items in 'Bed & Bath' on the one page",
